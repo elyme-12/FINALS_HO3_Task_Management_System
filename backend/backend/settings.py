@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-lm8iz072@%e^zaz-ut-a%^qxjct#3b9$kjcc6_-7#8*)815$p4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['Elymint.pythonanywhere.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -54,10 +54,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True
+
 CORS_ALLOW_ALL_ORIGINS = [
-    'http://loclhost:5173',
-    'http://loclhost:5173',
-    'https://finals-ho-3-task-management-system.vercel.app/',
+    'https://finals-ho-3-task-management-system-chi.vercel.app',
 ]
 
 ROOT_URLCONF = 'backend.urls'
