@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Poppins", serif;
+  background: #ad70a2;
+  font-weight:bold;
+}
+
+
+.container {
+  width: 70%;
+  max-width: 700px;
+  padding: 30px;
+  text-align: center;
+  background: rgba(236, 186, 236, 0.9); /* soft translucent purple */
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #4b0082; /* deep indigo */
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ad70a2; /* soft purple border */
+  border-radius: 8px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #e0bcf0; /* rich purple focus */
+}
+
+.button {
+  padding: 10px 15px;
+  background: #d795dd; /* primary purple */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #1b1b1b; /* darker hover purple */
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.done {
+  color: #2ecc71; /* green for done */
+  font-weight: bold;
+}
+
+.pending {
+  color: #f39c12; /* orange for pending */
+}
+body {
+  margin: 0;
+  font-family: "Poppins", serif;
+}
+
+.container {
+  border-top: 1px solid rgba(241, 184, 243, 0.65);
+  border-left: 1px solid rgb(219, 204, 204);
+  border-right: 1px solid rgb(219, 204, 204);
+  border-bottom: 1px solid rgb(219, 204, 204);
+  background: rgb(236, 186, 236);
+  box-shadow: 0 4px 30px (241, 115,0,0.1);
+  width: 70%;
+  height: 25%;
+  margin: 150px auto;
+  padding: 15px;
+  margin-top: 120px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #4b0082; /* deep indigo */
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ad70a2; /* soft purple border */
+  border-radius: 8px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #ad70a2; /* rich purple focus */
+}
+
+.button {
+  padding: 10px 15px;
+  background: #8f4181; /* primary purple */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #3b0032; /* darker hover purple */
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.done {
+  color: #2ecc71; /* green for done */
+  font-weight: bold;
+}
+
+.pending {
+  color: #f39c12; /* orange for pending */
+}
