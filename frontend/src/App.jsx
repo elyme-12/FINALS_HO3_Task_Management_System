@@ -5,7 +5,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const [title, setTitle] = useState("");
 
-const API_URL = import.meta.env.VITE_API_URL;
+  const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/api";
 
   // GET TASKS
   const fetchTasks = async () => {
@@ -57,7 +57,7 @@ const API_URL = import.meta.env.VITE_API_URL;
       <ul className="task-list">
         {tasks.map((task) => (
           <li key={task.id} className="task-item">
-            <span> 📌 {task.title}</span>
+            <span>- {task.title}</span>
           
           </li>
         ))}
