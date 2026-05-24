@@ -67,7 +67,7 @@ CORS_ALLOWED_ORIGINS = [
     origin.strip()
     for origin in os.environ.get(
         'CORS_ALLOWED_ORIGINS',
-        'https://finals-ho-3-task-management-system-chi.vercel.app',
+        'https://finals-ho-3-task-management-system-flax.vercel.app',
     ).split(',')
     if origin.strip()
 ]
